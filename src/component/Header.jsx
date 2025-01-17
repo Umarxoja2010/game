@@ -14,7 +14,7 @@ function Header() {
     }
   return (
    <header className='header'>
-    <div className="modal">
+    <div className="modal"  ref={modal}>
       <div onClick={closeModal} className="xbtn">X</div>
     < NavLink to={"/"}>
     Home
